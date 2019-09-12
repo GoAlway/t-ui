@@ -1,11 +1,14 @@
 {
   "name": "fui",
   "version": "0.1.0",
+  "description": "基于vue的ui组件库",
+  "keywords": ["fui", "vue-ui"],
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name fbutton --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
